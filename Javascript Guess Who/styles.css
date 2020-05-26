@@ -4,10 +4,17 @@
     font-weight: normal;
 }
 
+html {
+    height:100%;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  background: rgb(183, 212, 255);
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom,rgb(183, 212, 255),rgb(255, 201, 201)); 
 }
 
 #container {
